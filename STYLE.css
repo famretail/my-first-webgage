@@ -1,0 +1,97 @@
+h1{
+   margin-left: 500px;
+   margin-top: -7px;
+    background-color:rgb(245, 242, 60);
+    border:2px solid black;
+    padding:30px;
+    text-align: center;
+    width: 800px;
+    /* position: relative;
+    animation: anime;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-iteration-count: 100;
+}   
+ @keyframes anime {
+    0%{left:0px;top:0px;}
+    25%{left:300px;top:0px;}
+    50%{left:300px;top:300px;}
+    75%{left:0px;top:300px;}
+    100%{left:0px;top:0px;}
+    
+    }      */
+
+    
+}
+.namelist{
+    margin: 100px;
+    margin-left: 550px;
+}
+
+
+
+#fixedposition{
+    position: fixed;
+    
+}
+
+.googlelink{
+    color: rgb(22, 236, 22);
+    
+}    
+
+
+span{
+    color: blue;
+}
+div{
+    color: brown;
+}
+p{
+    
+    font-size: 30px;
+    font-family: sans-serif,Arial, Helvetica ;
+    font-style: italic;
+    margin-top:10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    }
+ .myimage
+ {
+     color: red;
+ }  
+ .jaan{
+     color: rgb(22, 236, 22);
+    border-top-style: ridge;
+    border-block-end-style: groove;
+     
+     padding: 20px;
+     border-radius: 20px;
+     
+ } 
+ .jaan1{
+     color: blue;
+     
+     padding: 20px;
+     border-radius: 20px;
+     border-top-style: ridge;
+     border-block-end-style: groove;
+
+ }
+ .namelist{
+     color: crimson;
+     font-size: 50px;
+     font-family: sans-serif;
+     padding: 100px;
+     border-radius: 20px;
+     border-top-style: ridge;
+     border-block-end-style: groove;
+     margin-left: 300px;
+     margin-right: 300px;
+ }
+.rumiza{
+    color: cyan;
+}
+li{
+    color: #000;
+}

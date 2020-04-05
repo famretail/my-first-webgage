@@ -1,0 +1,315 @@
+
+<html>
+<head>
+	<title>my first web site</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	
+	<script type="text/javascript">
+	
+	
+
+
+	
+	
+	
+	
+	
+	</script>
+	<body>
+		<script src="fam.js"></script>
+		<label for="faeeqe">mahadi</label>
+		<input type="search" name="search me">
+	</body>
+	<!-- fixed any text on website -->
+	<p id="fixed-position"> 
+		please subcribe to my youtube channel
+	</p>
+
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script type="text/javascript">  //how to inter on website with userid password 
+	function validate()
+	{
+		var username =document.getElementById("urname").value;
+		var regx = /FAM/i;
+		// var password =document.getElementById("pass");
+		// var username =document.getElementById("lbuser");
+		
+		if(regx.test(username))
+		{
+			alert("valid username");
+			
+		}
+		else
+		{
+			alert("invalid username");
+			document.getElementById("lbuser").style.visibility="visible";
+			return false;
+		}
+
+		if (username.value.trim()=="")
+		{
+			alert("no input");
+			urname.style.border ="solid 10px red";
+			return true;
+		}
+		
+		else if(password.value.trim()=="")
+		{
+			alert("no password");
+			pass.style.border="bold 5px red";
+			return false;
+		}
+		else if(password.value.trim().length<6)
+		{
+			alert("password too short");
+			return false;
+		}
+		else 
+		{
+			return true;
+		}
+	}
+	</script>
+
+	<body>
+		<form onsubmit="return validate()" action="massage.html">
+		<input id="urname" placeholder="username"required/>
+		<label id="lbuser" style="color : red;visibility: hidden; ">Invalid username</label>
+		<br>
+		<br>
+		<input type="password" id="pass" placeholder="password" required/>
+		<br>
+		<br>
+		<button  type="Submit">Submit</button>
+	    </form>
+	</body>
+	
+
+
+	 <script type="text/javascript"> 
+
+	function zuhaib() //images changes code one to anothor
+	{
+		document.getElementById("faeeqe").src = "images/win.png";
+	}
+
+	function anna()
+	{
+		document.getElementById("faeeqe").scr ="images/fsi.png";
+	}
+	</script>
+
+	<body>
+
+		<img id="faeeqe" onmouseover="zuhaib()" onmouseout="anna()" src="images/fsi.png"/>
+
+	</body> 
+	
+	<br>
+	<br><br><br>
+	
+	 <a href="https://youtu.be/A1lqIqGlcpM">vcfbvcjsdx</a> how to make youtube link 
+	 <br><br><br>
+	<script type="text/javascript">
+	
+	 function fn1()    //getElementById  how to get
+	 {
+	 	var select = document.getElementById("selectbox");
+		alert(select.options[select.selectedIndex].value);
+	 }
+	
+	
+	
+	
+	
+	
+	</script>
+	 <boby>
+	 	<select id="selectbox">
+	 		<option value="Faeeqe">Faeeqe</option>
+	 		<option value="Anna">Anna</option>
+			<option value="zuhaib">Zuhaib</option>
+
+	 	</select>
+	 	<br>
+	 	<br>
+	 	<button onclick="fn1()">submit</button>
+
+	 </boby>
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	<script type="text/javascript">
+	
+ 	function fn1()
+	{
+ 			//user input 
+		var str =document.getElementById("text1").value;
+ 		alert("Pasword and username are same:"+str);
+		
+ 	}
+ 	function fn2()
+ 	{
+ 		var muju = document.getElementById("muju");
+ 		var ali = document.getElementById("ali");
+		
+ 		if(muju.checked==true)
+ 			alert("good one:"+muju.value);
+ 		else if(ali.checked==true)
+ 			alert("good one:"+ali.value);
+ 		else 
+ 			alert("not selected:");	
+
+ 	}
+ 	</script>
+
+ <body>
+ 	<input id="text1" placeholder="username">
+ 	<br>
+
+ 	<input type="password" id="text2" placeholder="password">
+ 	<br>
+ 	<button onclick="fn1()" id = "btn1">submit</button>
+ 	<br>
+ 	<input id="muju" name="user1" type="radio"
+ 	value="Faeeqe">Faeeqe</input>
+ 	<br>
+ 	<input id="ali" name="user1" type="radio"
+ 	value="Zuhaib">Zuhaib</input>
+ 	<br>
+ 	<button onclick="fn2()" id= "btn2">submit</button>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </body> 
+
+
+
+
+
+	 <script type="text/javascript">
+	
+	
+	function Cars(car_brand,car_model,price)
+	{
+		this.car_brand = car_brand;
+		this.car_model = car_model;
+		this.price = price;
+		this.teslaAutoPilot = function()
+		{
+			document.write("<h5>This car has Auto Pilot</5>");
+		}
+	}
+	
+	var c1 = new Cars("Tesla","Model3",5000);
+	var c2 = new Cars("bwm" , "Model v2",60000);
+
+	
+	c1.teslaAutoPilot();
+	c2.teslaAutoPilot();
+
+	document.write("<h5>"+c2.car_model);
+
+	
+	
+	
+	
+	</script> 
+
+
+
+
+
+
+
+	<script type="text/javascript">
+
+	
+		var number = 18; //number
+		var name = "faeeqemahadi"; //string
+		var flag = true; //bolean
+		var result = number  + "name";
+
+		
+
+	</script>    
+		 -->
+	 <script type="text/javascript"> //for loop
+
+		for(var x=1;x<=10;x++)
+		{
+			document.write("<h4>"+(5*x)+"</h4>");
+		}
+	</script> -->
+
+	<script type="text/javascript">
+
+		var day = 5;
+		switch(day) //find the day
+		{
+			case 1:
+				document.write("<h3>Sunday</h3>");
+			break;
+			case 2:
+				document.write("<h3>Monday</h3>");
+			case 3:
+				document.write("<h3>Tuesday</h3>");
+			break;
+			case 4:
+				document.write("<h3>Wednesday</h3>");
+			break;
+			case 5:
+				document.write("<h3>Thrusday</h3>");
+			break;
+			case 6:
+				document.write("<h3>Friday</h3>");
+			break;
+			case 7:
+				document.write("<h3>Saturday</h3>");
+			break;
+			 default:
+				document.write("<h3>Wrong input</h3>");
+			
+		}	
+	</script>
+ 
+	<script type="text/javascript">	
+		var a = 20;
+		var b = 30;
+		var result = a + b ;
+		
+
+		document.write("<h4>Result is : "+result+" </h4>");
+
+
+
+	</script>
+
+
+<body>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud<br> <span>ullamco</span> laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, <span>  sunt in culpa qui officia deserunt</span>  mollit anim id est laborum.</p>
+	
+</body>
+</html>
+	
+
+
+			
+	
+	
+	
+	
+	
+	
